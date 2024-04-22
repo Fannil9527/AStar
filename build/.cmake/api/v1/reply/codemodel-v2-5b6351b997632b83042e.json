@@ -1,0 +1,237 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/strategy",
+					"jsonFile" : "directory-src.strategy-Debug-5970ae0cd2b08a9ae233.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/strategy",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/grad_map",
+					"jsonFile" : "directory-src.grad_map-Debug-8d2c0c1b35c64eb77e7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/grad_map",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/show_result",
+					"jsonFile" : "directory-src.show_result-Debug-0deca97e070770937554.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/show_result",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test/map_test",
+					"jsonFile" : "directory-test.map_test-Debug-64f4512c0f4e12744e89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "test/map_test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "strategy",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "grad_map",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "show_result",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "map_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "grad_map::@6961819b51da3133ef11",
+					"jsonFile" : "target-grad_map-Debug-bb74adfcec7db62d9d26.json",
+					"name" : "grad_map",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-01bc294f20cf38bb727b.json",
+					"name" : "main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "map_test::@ceab4b1ca83c6e9a91cf",
+					"jsonFile" : "target-map_test-Debug-8be8736c4a7bf837800b.json",
+					"name" : "map_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "show_result::@b60c13569b0a8d4a3aa6",
+					"jsonFile" : "target-show_result-Debug-4f3bb0c275fac934804a.json",
+					"name" : "show_result",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "strategy::@af6f25ebf2188de4719a",
+					"jsonFile" : "target-strategy-Debug-19d3c8b7851fe5952735.json",
+					"name" : "strategy",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ADAS/C++/Lesson6/AStar/build",
+		"source" : "D:/ADAS/C++/Lesson6/AStar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

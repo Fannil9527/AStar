@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/ADAS/C++/Lesson6/AStar/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\ADAS\\C++\\Lesson6\\AStar\\src\\main.cpp",
+  "file": "D:/ADAS/C++/Lesson6/AStar/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/ADAS/C++/Lesson6/AStar/build/src/strategy",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dstrategy_EXPORTS @CMakeFiles/strategy.dir/includes_CXX.rsp -g -o CMakeFiles\\strategy.dir\\strategy.cpp.obj -c D:\\ADAS\\C++\\Lesson6\\AStar\\src\\strategy\\strategy.cpp",
+  "file": "D:/ADAS/C++/Lesson6/AStar/src/strategy/strategy.cpp",
+  "output": "src/strategy/CMakeFiles/strategy.dir/strategy.cpp.obj"
+},
+{
+  "directory": "D:/ADAS/C++/Lesson6/AStar/build/src/grad_map",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dgrad_map_EXPORTS @CMakeFiles/grad_map.dir/includes_CXX.rsp -g -o CMakeFiles\\grad_map.dir\\grad_map.cpp.obj -c D:\\ADAS\\C++\\Lesson6\\AStar\\src\\grad_map\\grad_map.cpp",
+  "file": "D:/ADAS/C++/Lesson6/AStar/src/grad_map/grad_map.cpp",
+  "output": "src/grad_map/CMakeFiles/grad_map.dir/grad_map.cpp.obj"
+},
+{
+  "directory": "D:/ADAS/C++/Lesson6/AStar/build/src/show_result",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dshow_result_EXPORTS @CMakeFiles/show_result.dir/includes_CXX.rsp -g -o CMakeFiles\\show_result.dir\\show_result.cpp.obj -c D:\\ADAS\\C++\\Lesson6\\AStar\\src\\show_result\\show_result.cpp",
+  "file": "D:/ADAS/C++/Lesson6/AStar/src/show_result/show_result.cpp",
+  "output": "src/show_result/CMakeFiles/show_result.dir/show_result.cpp.obj"
+},
+{
+  "directory": "D:/ADAS/C++/Lesson6/AStar/build/test/map_test",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/map_test.dir/includes_CXX.rsp -g -o CMakeFiles\\map_test.dir\\map_test.cpp.obj -c D:\\ADAS\\C++\\Lesson6\\AStar\\test\\map_test\\map_test.cpp",
+  "file": "D:/ADAS/C++/Lesson6/AStar/test/map_test/map_test.cpp",
+  "output": "test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj"
+}
+]
