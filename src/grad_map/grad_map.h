@@ -34,6 +34,8 @@ namespace NAVIGATION
         Node() = default;
         Node(const int& r, const int& c, const int& type = NodeType::normal);   //Create with parameter
         void drawNode() const;     // Draw node
+
+        bool operator<(const Node& other_node) const {return this->f > other_node.f;}
     
     public:
         int row = 0;    // row in the map
@@ -45,6 +47,7 @@ namespace NAVIGATION
 
         int node_type = NodeType::normal;   // Initial node type
         Node* parent_node = nullptr;        // parent node of the end point
+     
     };
 
     class GridMapBase       // Parent class of grad map

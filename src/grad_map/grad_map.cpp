@@ -76,13 +76,6 @@ namespace NAVIGATION
         cout << endl;
     }
 
-    GridMap::GridMap(const Node& start, const Node& end)
-    {
-        assert(GridMapInit(start, end));    // initial with assert, because it is in create function
-        printMap();     // print
-        drawMap();      // draw map
-    }
-
     void GridMapBase::drawMap()
     {
         setbkcolor(WHITE);      // set color of back: white
@@ -119,6 +112,34 @@ namespace NAVIGATION
 
     void GridMap::addObs()
     {
+        Node* node_tmp;
+        for(int i = 10; i < 35; i++)
+        {
+            node_tmp = &grid_map[10][i];
+            obs_nodes.insert(node_tmp);
+            node_tmp->node_type = NodeType::obs;
+        }
+        
+        for(int i = 10; i < 35; i++)
+        {
+            node_tmp = &grid_map[34][i];
+            obs_nodes.insert(node_tmp);
+            node_tmp->node_type = NodeType::obs;
+        }
 
+        for(int i = 10; i < 35; i++)
+        {
+            node_tmp = &grid_map[i][35];
+            obs_nodes.insert(node_tmp);
+            node_tmp->node_type = NodeType::obs;
+        }     
+    }
+
+    GridMap::GridMap(const Node& start, const Node& end)
+    {
+        assert(GridMapInit(start, end));    // initial with assert, because it is in create function
+        addObs();
+        printMap();     // print
+        drawMap();      // draw map
     }
 } // namespace 

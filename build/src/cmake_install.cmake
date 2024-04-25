@@ -47,8 +47,3 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/ADAS/C++/Lesson6/AStar/build/src/grad_map/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/ADAS/C++/Lesson6/AStar/build/src/show_result/cmake_install.cmake")
-endif()
-

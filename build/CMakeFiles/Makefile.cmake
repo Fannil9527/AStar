@@ -37,9 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.2/CMakeSystem.cmake"
   "D:/ADAS/C++/Lesson6/AStar/src/CMakeLists.txt"
   "D:/ADAS/C++/Lesson6/AStar/src/grad_map/CMakeLists.txt"
-  "D:/ADAS/C++/Lesson6/AStar/src/show_result/CMakeLists.txt"
   "D:/ADAS/C++/Lesson6/AStar/src/strategy/CMakeLists.txt"
-  "D:/ADAS/C++/Lesson6/AStar/test/map_test/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -54,8 +52,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/strategy/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/grad_map/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/show_result/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/map_test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -63,6 +59,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   "src/strategy/CMakeFiles/strategy.dir/DependInfo.cmake"
   "src/grad_map/CMakeFiles/grad_map.dir/DependInfo.cmake"
-  "src/show_result/CMakeFiles/show_result.dir/DependInfo.cmake"
-  "test/map_test/CMakeFiles/map_test.dir/DependInfo.cmake"
   )

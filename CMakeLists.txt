@@ -7,14 +7,12 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
-enable_testing()
 
 #set value
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(Config_Dir ${CMAKE_SOURCE_DIR}/src/config)
 set(Strategy_Dir ${CMAKE_SOURCE_DIR}/src/strategy)
 set(Grad_Map_Dir ${CMAKE_SOURCE_DIR}/src/grad_map)
-set(Show_Result_Dir ${CMAKE_SOURCE_DIR}/src/show_result)
 set(Main_Dir ${CMAKE_SOURCE_DIR}/src/main)
 
 #third party lib
@@ -29,4 +27,3 @@ endif()
 
 #add sub directory
 add_subdirectory(src)
-add_subdirectory(test/map_test)

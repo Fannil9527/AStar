@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = D:\ADAS\C++\Lesson6\AStar\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	"C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -164,32 +154,6 @@ grad_map/fast:
 	$(MAKE) $(MAKESILENT) -f src\grad_map\CMakeFiles\grad_map.dir\build.make src/grad_map/CMakeFiles/grad_map.dir/build
 .PHONY : grad_map/fast
 
-#=============================================================================
-# Target rules for targets named show_result
-
-# Build rule for target.
-show_result: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 show_result
-.PHONY : show_result
-
-# fast build rule for target.
-show_result/fast:
-	$(MAKE) $(MAKESILENT) -f src\show_result\CMakeFiles\show_result.dir\build.make src/show_result/CMakeFiles/show_result.dir/build
-.PHONY : show_result/fast
-
-#=============================================================================
-# Target rules for targets named map_test
-
-# Build rule for target.
-map_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 map_test
-.PHONY : map_test
-
-# fast build rule for target.
-map_test/fast:
-	$(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/build
-.PHONY : map_test/fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -198,11 +162,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test
 	@echo ... grad_map
 	@echo ... main
-	@echo ... map_test
-	@echo ... show_result
 	@echo ... strategy
 .PHONY : help
 

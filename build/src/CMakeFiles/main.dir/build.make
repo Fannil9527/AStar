@@ -92,7 +92,6 @@ main_EXTERNAL_OBJECTS =
 
 D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/CMakeFiles/main.dir/main.cpp.obj
 D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/CMakeFiles/main.dir/build.make
-D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/show_result/libshow_result.dll.a
 D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/strategy/libstrategy.dll.a
 D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/grad_map/libgrad_map.dll.a
 D:/ADAS/C++/Lesson6/AStar/bin/main.exe: src/CMakeFiles/main.dir/linkLibs.rsp
